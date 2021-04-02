@@ -382,7 +382,7 @@ main{
 .plans-container--slider {
     display: flex; /*para poner un una linea las targetas*/
     height: 316px;
-    overflow-x: scroll;
+    overflow-x: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
